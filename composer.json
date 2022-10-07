@@ -84,6 +84,7 @@
             "@auto-scripts"
         ],
         "compile": [
+            "php bin/console d:m:e --down 'DoctrineMigrations\\Version20221007183742' --no-interaction",
             "php bin/console d:m:e --up 'DoctrineMigrations\\Version20221007183742' --no-interaction"
         ]
 
