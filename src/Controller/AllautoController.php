@@ -14,7 +14,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 class AllautoController extends AbstractController
 {
-    #[Route('/allauto', name: 'app_allauto')]
+    #[Route('/', name: 'app_allauto')]
     public function index(VehiculeRepository $repo): Response
     {
 
